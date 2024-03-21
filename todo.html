@@ -81,11 +81,11 @@
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">here is your todo list</h5>
+        <h5 class="card-title" style="text-transform:uppercase">here is your todo list-</h5>
         <p class="card-text text-success"> No:<br>${index + 1}</p>
         <p class="card-text text-danger">task to be accomplish:<br>${task}</p>
-        <button class="btn btn-sm my-3 mx-auto btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="edit(${index})">Edit</button>
-        <button class="btn btn-sm my-3 mx-auto btn-danger" onclick="deleteTodo(${index})">Delete</button>
+        <button class="btn btn-sm my-3 mx-auto btn-warning col-5" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="edit(${index})">Edit</button>
+        <button class="btn btn-sm my-3 ms-3 mx-auto btn-danger col-5" onclick="deleteTodo(${index})">Delete</button>
       </div>
     </div>
   </div>
